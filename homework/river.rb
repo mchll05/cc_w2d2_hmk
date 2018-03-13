@@ -13,5 +13,4 @@ def fish_in_river
   return @fishstock.length
 end
 
-
 end

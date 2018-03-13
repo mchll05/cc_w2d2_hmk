@@ -16,4 +16,9 @@ def test_eat_a_fish
   assert_equal(1, result)
 end
 
+def test_is_bear_hungry
+  assert_equal(true, @bear.fish_in_stomach(1))
+end
+
+
 end
